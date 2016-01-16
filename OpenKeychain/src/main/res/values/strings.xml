@@ -18,6 +18,7 @@
     <string name="title_preferences">"Settings"</string>
     <string name="title_api_registered_apps">"Apps"</string>
     <string name="title_key_server_preference">"OpenPGP keyservers"</string>
+    <string name="title_cache_ttl_preference">"Customize 'Remember' Choices"</string>
     <string name="title_change_passphrase">"Change Password"</string>
     <string name="title_share_fingerprint_with">"Share fingerprint with…"</string>
     <string name="title_share_key">"Share key with…"</string>
@@ -129,6 +130,7 @@
     <string name="menu_certify_fingerprint">"Confirm with fingerprint"</string>
     <string name="menu_certify_fingerprint_phrases">"Confirm with phrases"</string>
     <string name="menu_share_log">"Share log"</string>
+    <string name="menu_change_password">"Change password"</string>
 
     <string name="menu_keyserver_add">"Add"</string>
 
@@ -156,7 +158,7 @@
     <string name="label_encryption_algorithm">"Encryption algorithm"</string>
     <string name="label_hash_algorithm">"Hash algorithm"</string>
     <string name="label_symmetric">"Encrypt with password"</string>
-    <string name="label_passphrase_cache_ttl">"Remember time"</string>
+    <string name="label_passphrase_cache_ttl">"Customize 'Remember' Choices"</string>
     <string name="label_passphrase_cache_subs">"Remember passwords by subkey"</string>
     <string name="label_message_compression">"Text compression"</string>
     <string name="label_file_compression">"File compression"</string>
@@ -666,7 +668,7 @@
     <string name="key_list_fab_import">"Import from File"</string>
 
     <!-- Key view -->
-    <string name="key_view_action_edit">"Edit key"</string>
+    <string name="key_view_action_edit">"Edit"</string>
     <string name="key_view_action_encrypt">"Encrypt text"</string>
     <string name="key_view_action_encrypt_files">"files"</string>
     <string name="key_view_action_certify">"Confirm key"</string>
@@ -1680,7 +1682,8 @@
     <string name="linked_error_network">"Network error!"</string>
     <string name="linked_error_http">"Communication error: %s"</string>
     <string name="linked_webview_title_github">"GitHub Authorization"</string>
-    <string name="linked_gist_description">"OpenKeychain API Tests"</string>
+    <string name="linked_gist_description">"OpenKeychain Linked Identity"</string>
+    <string name="linked_empty">"Link your key to GitHub, Twitter or other websites!"</string>
     <string name="snack_btn_overwrite">"Overwrite"</string>
     <string name="backup_code_explanation">"The backup will be secured with a backup code. Write it down before you proceed!"</string>
     <string name="backup_code_enter">"Please enter the backup code:"</string>
@@ -1703,6 +1706,19 @@
     <string name="share_log_dialog_cancel_button">"Cancel"</string>
     <string name="toast_wrong_mimetype">"Wrong data type, text was expected!"</string>
     <string name="toast_no_text">"No text in shared data!"</string>
+    <string name="menu_uids_save">"Save"</string>
+    <string name="title_edit_identities">"Edit Identities"</string>
+    <string name="title_edit_subkeys">"Edit Subkeys"</string>
     <string name="btn_search_for_query">"Search for\n'%s'"</string>
+    <string name="cache_ttl_lock_screen">"until Screen Off"</string>
+    <string name="cache_ttl_five_minutes">"for Five Minutes"</string>
+    <string name="cache_ttl_one_hour">"for One Hour"</string>
+    <string name="cache_ttl_three_hours">"for Three Hours"</string>
+    <string name="cache_ttl_one_day">"for One Day"</string>
+    <string name="cache_ttl_three_days">"for Three Days"</string>
+    <string name="settings_cache_select_three">"Pick up to three."</string>
+    <string name="settings_cache_ttl_at_least_one">"At least one item must be selected!"</string>
+    <string name="settings_cache_ttl_max_three">"Can\'t select more than three items!"</string>
+    <string name="remember">"Remember"</string>
 
 </resources>
